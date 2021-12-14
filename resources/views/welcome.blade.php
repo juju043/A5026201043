@@ -10,7 +10,7 @@
         <style>
             html, body {
                 background-color: #fff;
-                color: #636b6f;
+                color: #452946;
                 font-family: 'Nunito', sans-serif;
                 font-weight: 200;
                 height: 100vh;
@@ -64,7 +64,7 @@
         5026201043
     </div>
 
-    <h1 class="title">Landing Page</h1>
+    <h1 class="title">Home Page</h1>
 
     <ul class="navbar-nav d-flex flex-lg-row flex-column justify-content-around">
     <li class="nav-item active">
@@ -92,15 +92,7 @@
         <a href="/tugasphp"  class="btn btn-primary">Tugas PHP</a>
     </li>
     <li class="nav-item">
-
-        <a href="/isiannama"  class="btn btn-primary">Isian Nama</a>
-    </li>
-    <li class="nav-item">
-        <a href="/pegawai"  class="btn btn-primary">Tabel Pegawai</a>
-    </li>
-    <li class="nav-item">
-
-        <a href="/tugas" class="btn btn-primary">Tabel Tugas</a>
+        <a href="'sandal"  class="btn btn-primary">Praktikum 3</a>
     </li>
   </ul>
 </div>

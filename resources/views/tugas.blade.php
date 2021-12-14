@@ -84,7 +84,7 @@
                             echo $last ." " .$first;
                         ?>
                         </p>
-                        <pre>Welcome to Meldives!!</pre>
+                        <pre>Welcome to Maldives!!</pre>
                         <pre>We wish you a pleasant stay and have a memorable experience.</pre>
                         <pre>Enjoy your holiday!</pre>
                 </div>

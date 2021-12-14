@@ -150,11 +150,6 @@ if (!isset($_POST['playerChoice'])) {
       <div class="row d-flex flex-row justify-content-center">
         <div class="card text-center">
           <div class="card-body">
-            <h1 class="footer-title">
-              Made with 💗 by
-              <a href="https://github.com/MrWaradana">
-                <i class="fab fa-github" aria-hidden="true"></i> MrWaradana</a>
-            </h1>
           </div>
         </div>
       </div>

@@ -41,26 +41,20 @@ Route::post('tugasphp',"ViewController@showTugasPHP");
 Route::view('/grocery', 'grocery');
 Route::post('/grocery/post', 'GroceryController@store');
 
-//route CRUD pegawai
-Route::get('/pegawai','PegawaiController@index');
-Route::get('/pegawai/tambah','PegawaiController@tambah');
-
-Route::post('/pegawai/store','PegawaiController@store');
-
-Route::get('/pegawai/edit/{id}','PegawaiController@edit');
-Route::post('/pegawai/update','PegawaiController@update');
-
-Route::get('/pegawai/hapus/{id}','PegawaiController@hapus');
+//route CRUD karyawan1
+Route::get('/karyawan1','karyawan1Controller@index');
+Route::get('/karyawan1/tambah','karyawan1Controller@tambah');
+Route::post('/karyawan1/store','karyawan1Controller@store');
+Route::get('/karyawan1/edit/{id}','karyawan1Controller@edit');
+Route::post('/karyawan1/update','karyawan1Controller@update');
+Route::get('/karyawan1/hapus/{id}','karyawan1Controller@hapus');
 
 //route CRUD tugas
 Route::get('/tugas','TugasController@index');
 Route::get('/tugas/tambah','TugasController@tambah');
-
 Route::post('/tugas/store','TugasController@store');
-
 Route::get('/tugas/edit/{id}','TugasController@edit');
 Route::post('/tugas/update','TugasController@update');
-
 Route::get('/tugas/hapus/{id}','TugasController@hapus');
 
 
@@ -72,4 +66,8 @@ Route::get('/absen/edit/{id}','AbsenController@edit');
 Route::post('/absen/update','AbsenController@update');
 Route::get('/absen/hapus/{id}','AbsenController@hapus');
 
-
+//route EAS Karyawan1
+Route::get('/karyawan1','Karyawan1Controller@index');
+Route::get('/karyawan1/tambah','Karyawan1Controller@tambah');
+Route::post('/karyawan1/store','Karyawan1Controller@store');
+Route::get('/karyawan1/hapus/{id}','Karyawan1Controller@hapus');

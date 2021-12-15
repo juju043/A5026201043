@@ -92,7 +92,10 @@
         <a href="/tugasphp"  class="btn btn-primary">Tugas PHP</a>
     </li>
     <li class="nav-item">
-        <a href="'sandal"  class="btn btn-primary">Praktikum 3</a>
+        <a href="/sandal"  class="btn btn-primary">Praktikum 3</a>
+    </li>
+    <li class="nav-item">
+        <a href="/karyawan1"  class="btn btn-primary">EAS (B2)</a>
     </li>
   </ul>
 </div>

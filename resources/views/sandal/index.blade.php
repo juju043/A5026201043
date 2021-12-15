@@ -5,8 +5,7 @@
 @section('konten')
 	<h4 style="margin-left: 30px ; padding-top: 10px">Data'sandal
 </h4>
-	<a href="'sandal
-/tambah" style="margin-left: 30px"> + Tambah'sandal
+	<a href="/sandal/tambah" style="margin-left: 30px"> + Tambah'sandal
      Baru</a>
 
 	<br/>

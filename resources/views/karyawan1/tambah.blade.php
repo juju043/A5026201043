@@ -6,7 +6,7 @@
 @section('konten')
 
 <div class="container">
-    <form  action="karyawan1/store" method="post">
+    <form  action="/karyawan1/store" method="post">
         {{ csrf_field() }}
         <div class="form-group">
           <label for="NIP">NIP</label>
@@ -22,7 +22,7 @@
         </div>
         <div class="form-group">
           <label for="Gaji">Gaji</label>
-          <input type='number' class="form-control" name="Gaji" id="Gaji" placeholder="Gaji" rows="3" required="required">
+          <input type='number' class="form-control" name="Gaji" id="Gaji" placeholder="Gaji" required="required">
         </div>
         <div class="form-group d-flex justify-content-between">
             <a href="karyawan1" class="btn btn-danger"><i class="fas fa-arrow-left"></i> Kembali</a>
